@@ -8,9 +8,6 @@ export default [
       ecmaVersion: 'latest',
       sourceType: 'module'
     },
-    rules: {
-      quotes: ['error', 'single'],
-      semi: ['error', 'never']
-    }
+    rules: {}
   }
 ]

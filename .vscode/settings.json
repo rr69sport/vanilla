@@ -1,34 +1,42 @@
 {
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact][typescript][typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[css][scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "js/ts.implicitProjectConfig.checkJs": true,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
-  "editor.stickyScroll.enabled": true
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never",
+    "source.fixAll.eslint": "explicit"
+  },
+  "html.format.indentInnerHtml": false, // Setear en true para que <head> y <body> se indenten un nivel dentro de <html>. `false` están al mismo nivel.
+  "html.format.maxPreserveNewLines": null,
+  "html.format.preserveNewLines": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "css.lint.emptyRules": "ignore",
+  "css.lint.important": "warning",
+  "css.lint.zeroUnits": "warning",
+  "css.lint.duplicateProperties": "warning",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "js/ts.implicitProjectConfig.checkJs": true, // @ts-check implícito en archivos .js
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.NoBrowser": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "emmet.triggerExpansionOnTab": true
 }
