@@ -24,14 +24,6 @@
   }
 }
 
-@media (prefers-color-scheme: no-preference) {
-  :root {
-    --main-color: #0783f7;
-    --bg-color: var(--dark-color);
-    --text-color: var(--light-color);
-  }
-}
-
 *,
 *::before,
 *::after {
