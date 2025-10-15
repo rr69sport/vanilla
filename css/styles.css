@@ -1,42 +1,4 @@
-:root {
-  /* Colors */
-  --dark-color: #1f2431;
-  --light-color: #eef0f3;
-
-  --gap: 1rem;
-  --border-radius: 4px;
-  --max-width: 1200px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-color: #208ff7;
-    --bg-color: var(--dark-color);
-    --text-color: var(--light-color);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-color: #063cd1;
-    --bg-color: var(--light-color);
-    --text-color: var(--dark-color);
-  }
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: var(--text-color);
-  background-color: var(--bg-color);
-}
-
+/* Puedes borrar estos estilos y reemplazarlos por tus propios estilos */
 h1 {
   text-align: center;
   color: var(--main-color);
